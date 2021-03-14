@@ -24,6 +24,7 @@
 		1A20E99825FDC48000C3ADB8 /* NotoSansCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1A20E99525FDC47E00C3ADB8 /* NotoSansCJKkr-Bold.otf */; };
 		1A20E99925FDC48000C3ADB8 /* NotoSansCJKkr-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1A20E99625FDC47F00C3ADB8 /* NotoSansCJKkr-Medium.otf */; };
 		1A20E99A25FDC48000C3ADB8 /* NotoSansCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1A20E99725FDC48000C3ADB8 /* NotoSansCJKkr-Regular.otf */; };
+		1A20E9AA25FDCB4600C3ADB8 /* KobisKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A20E9A925FDCB4600C3ADB8 /* KobisKey.swift */; };
 		1A7AF93C25FDBC3800B97266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AF93B25FDBC3800B97266 /* AppDelegate.swift */; };
 		1A7AF93E25FDBC3800B97266 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AF93D25FDBC3800B97266 /* SceneDelegate.swift */; };
 		1A7AF94025FDBC3800B97266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7AF93F25FDBC3800B97266 /* ViewController.swift */; };
@@ -52,6 +53,7 @@
 		1A20E99525FDC47E00C3ADB8 /* NotoSansCJKkr-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Bold.otf"; sourceTree = "<group>"; };
 		1A20E99625FDC47F00C3ADB8 /* NotoSansCJKkr-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Medium.otf"; sourceTree = "<group>"; };
 		1A20E99725FDC48000C3ADB8 /* NotoSansCJKkr-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Regular.otf"; sourceTree = "<group>"; };
+		1A20E9A925FDCB4600C3ADB8 /* KobisKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KobisKey.swift; sourceTree = "<group>"; };
 		1A7AF93825FDBC3800B97266 /* DanggeunMockA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanggeunMockA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A7AF93B25FDBC3800B97266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A7AF93D25FDBC3800B97266 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +143,14 @@
 			path = Splash;
 			sourceTree = "<group>";
 		};
+		1A20E9A725FDCB3D00C3ADB8 /* Secret */ = {
+			isa = PBXGroup;
+			children = (
+				1A20E9A925FDCB4600C3ADB8 /* KobisKey.swift */,
+			);
+			path = Secret;
+			sourceTree = "<group>";
+		};
 		1A7AF92F25FDBC3800B97266 = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				1A20E96025FDBF5500C3ADB8 /* Constant.swift */,
+				1A20E9A725FDCB3D00C3ADB8 /* Secret */,
 				1A20E96625FDBFA800C3ADB8 /* Font */,
 				1A20E96925FDBFBB00C3ADB8 /* Extension */,
 				1A20E96825FDBFB500C3ADB8 /* CommonClass */,
@@ -339,6 +350,7 @@
 				1A20E98125FDC06B00C3ADB8 /* IndicatorView.swift in Sources */,
 				1A20E97E25FDC01000C3ADB8 /* UINavigationBar.swift in Sources */,
 				1A20E98425FDC07000C3ADB8 /* Device.swift in Sources */,
+				1A20E9AA25FDCB4600C3ADB8 /* KobisKey.swift in Sources */,
 				1A20E97B25FDC00600C3ADB8 /* UIViewController.swift in Sources */,
 				1A20E96125FDBF5500C3ADB8 /* Constant.swift in Sources */,
 				1A20E96F25FDBFEB00C3ADB8 /* String.swift in Sources */,
